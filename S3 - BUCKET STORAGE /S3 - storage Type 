@@ -1,0 +1,12 @@
+S3 STORAGE CLASSES / Date:14/5/25
+
+1. S3 STANDARD [Frequenty uses in day-to-day work] {availability- 99.9%, Durability: 99.99999999999% }
+2. S3 STANDARD-IA [Inferqent Access ex: 15-Days] 
+3. S3 INTELLIGENT TIERING 
+4. S3 ON ZONE IA [Data will remain in one region] {avaibility: 99.5%}
+5. GLACIER
+  1. S3 - GLACIER INSTANT RETRIEVAL [Long-Live Data for 6 month]
+  2. S3 - GLACIER FLEXIBLE RETRIEVAL [archive data with in minutes]
+  3. S3 - GLACIER DEEP AECHIVE [10-year to 20-year storeage time 12-Hours retive Time]
+
+
