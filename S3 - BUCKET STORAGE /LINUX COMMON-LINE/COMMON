@@ -1,0 +1,2 @@
+aws s3 ls  # This Common is used to ckeck the S3 Bucket List
+aws s3 cp [filename] s3://[bucketname]  # This commond is used to copy the file from linux to S3 Bucket.
