@@ -1,0 +1,12 @@
+Cloud watch
+
+amazon cloudwatch monitors your AWS resources and the applications you runon aws in real time.
+
+Step to Create:
+1. Cloudwatch Dashboard  # Select the Resource.
+2. select the instead id 
+3. Pull load the using the a.bat file # the common use to put load on the CUP.
+
+TYPES of Cloudwatch:
+1. Basic FREE, 5 min intervals.
+2. Detailed : paid, 1 min intervals 
