@@ -1,3 +1,5 @@
+DATE: 21-5-2025
+
 # what is mean by Data?
 -In simple words, data can be facts related to any object.
 eg: your name, address, age are some data related to you.
@@ -22,4 +24,16 @@ Types: of DBMS:
 
 # Famous RDBMS:
 * MySql, Oracle RDBMS, IBM DB2, Mariadb
+
+### In AWS RDS is a fully managed service here AWS is responsible for:
+1. Security and patching 
+2. Automated backup
+3. Software update for DB engins
+4. Disaster Recovery
+5. By Deafult,  every db has weekly maintenance window (max 1-35)
+
+There are some settings manged by users:
+1. Managing DB instance
+2. Creating relational database schema. schema means design of database.
+
 
