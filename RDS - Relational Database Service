@@ -1,0 +1,25 @@
+# what is mean by Data?
+-In simple words, data can be facts related to any object.
+eg: your name, address, age are some data related to you.
+
+# Database?
+-Database is a systematic collection of data.
+
+# what is DBMS?
+-Database Management System is a software system that allows user to create, define, manipulate and manage database.
+Types: of DBMS:
+1. Hirarchical DBMS 
+2. Network DBMS
+3. Relational DBMS - RDBMS
+4. Object Oriented DBMS
+
+# Relational DBMS:
+-A RDBMS is a software application that manages and control data stored in Tabular Format.
+-A Table is a collection of related data in Organized manner in the form of rows and columns.
+
+* Scaleout - Increas the server.
+* ScaleIn - Dicress the no of server.
+
+# Famous RDBMS:
+* MySql, Oracle RDBMS, IBM DB2, Mariadb
+
