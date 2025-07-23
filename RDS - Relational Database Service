@@ -36,4 +36,17 @@ There are some settings manged by users:
 1. Managing DB instance
 2. Creating relational database schema. schema means design of database.
 
+### STEP PARTICAL ###
+1. CREATE RDS 
+2. CREATE INSTANCE - (take secrity group of RDS)
+3. Install backend - (mariadb) # common yum install mariadb105-server -y
+4. systemctl start mariadb
+5. systemctl enable mariadb
+6. mysql -h {end-point} -u admin -p db1 
 
+**Commond**
+show table
+insert into student(roll_no, name, city, mob.no) values (1,'adnan', 'Pune');
+insert into student(roll_no, name, city, mob.no) values (2,'Ayaan', 'Mumbai');
+--
+select * from student;  <<<Table will show>>>
