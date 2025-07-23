@@ -46,7 +46,7 @@ There are some settings manged by users:
 
 **Commond**
 show table
-insert into student(roll_no, name, city, mob.no) values (1,'adnan', 'Pune');
-insert into student(roll_no, name, city, mob.no) values (2,'Ayaan', 'Mumbai');
+insert into student(roll_no, name, city,) values (1,'adnan', 'Pune');
+insert into student(roll_no, name, city,) values (2,'Ayaan', 'Mumbai');
 --
 select * from student;  <<<Table will show>>>
