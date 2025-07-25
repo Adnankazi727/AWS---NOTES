@@ -1,0 +1,10 @@
+<<<<<<<<<<<<<<Route-53>>>>>>>>>>>>>
+    -------------Networking..........
+
+DNS - Domain name system works on port - 53.
+DNS - is used to convert domain name into IP address.
+
+*THEORY:-
+YOU CAN USE ROUTE-53 TO REGISTER NEW DOMIANS, TRANSFER EXISTING DOMAIN, ROUTE TRAFFIC FOR YOUR DOMAIN & PERFORM HEALTH CHECK OF YOUR RESOURCES.
+
+
