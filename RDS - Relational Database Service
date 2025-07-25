@@ -60,6 +60,7 @@ lunch instance on ubuntu increase the cpu size by 20
 ### STEP ***
 apt update
 apt install mysql-client -y   # In Ubuntu mariadb package name will be mysql-client
+mysql -h DATABASE-ENDPOINT -u admin -p  ### creata Dtatbase in mysql 
 create database student_db,  # create in mysql
 git clone https://github.com/shubhamkalsait/cloudblitz-student-app.git  # Clone the repository 
 
@@ -73,11 +74,11 @@ mvn clean package    #This common is used to Build this packeage
 ls target         # To ckeck the Backed Build by maven
 
 <<<<<<<<<<<FRONT-END PROCESS>>>>>>>>>>>
-apt install nodejs .npm -y   # This Help to Build forntend 
+apt install nodejs npm -y   # This Help to Build forntend 
 npm install   # Node package management tool ( to 3rd party dependence npm install all liabrery )
 npm run build    # this common build and run the frontend 
-apt install apache2 -y  # install apche2 package 
 vim .env   # Give connectivity to backend to frontend take public-IP http://13.201.20.81:8080/api   
+apt install apache2 -y  # install apche2 package 
 cp -rf  dist/* /var/www/html  # Copy all the Resources from dist to /var/www/html  (dist is the File)
 systemctl start apache2   ## run the frontend File
 systemctl enable apache2  
@@ -85,3 +86,10 @@ cd ..
 cd backend 
 cd target/  ## Run the target File in backend 
 java -jar student-registration-backend-0.0.1-SNAPSHOT.jar  ## To Run the java File
+
+
+<<<<<mysql Commond>>>>>
+show databases;  # This use to show Data
+use student_db;
+show tables;
+select * from user;
