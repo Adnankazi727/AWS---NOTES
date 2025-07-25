@@ -1,3 +1,5 @@
+DATE:- 23/5/2025....
+
 <<<<<<<<<<<<<<Route-53>>>>>>>>>>>>>
     -------------Networking..........
 
@@ -7,4 +9,27 @@ DNS - is used to convert domain name into IP address.
 *THEORY:-
 YOU CAN USE ROUTE-53 TO REGISTER NEW DOMIANS, TRANSFER EXISTING DOMAIN, ROUTE TRAFFIC FOR YOUR DOMAIN & PERFORM HEALTH CHECK OF YOUR RESOURCES.
 
+* AWS there are 2 Top level Domin:-
+1. Generic level Domin ----------- .com, .org, .net, .edu
+2. Geographic level Domin ------------ .in, .us, .cn ext....
+
+* Route53 is a Gobal Service.
+
+** STEPS TO CONFIGURE ROUTE53:
+1. First you need to register a Domain (It can be on Route53 or another DNS registrar)
+2. Create a hosted zone on route53. this is done automatically if you register your domian from route53 otherwaise you have to create hosted zone   manually.
+3. inside the hosted zone, you need to create record sets.
+
+* Hosted Zone:
+Hosted zone is a container for records.
+
+* Type of Hosted Zone
+1. Public hosted zone: It contain records that specify how you want to route traffic on internet.
+2. Private hosted zone: It contain records that specify how you want to route traffic in VPC.
+
+For each public hosted zone that you create, amazon route53 automatically creates name server (NS) record and start of Authority (SOA) records.
+1. always remember 4-NS record will be created.
+2. SOA records is nothing but a details of your domain.
+
+NS is responsible for resolving your domian.
 
