@@ -1,0 +1,18 @@
+<<<<<<<<<<<<< Date:- 26-5-2025  >>>>>>>>>>>>>>>>>>>>>
+
+* Lambda is a compute service that lets you run yuor code without managing servers.
+
+- Lambda Manages:-
+1. Provisioning and capacity of the compute fleets. (CPU, Network and other resources)
+2. Server and OS maintaince.
+3. High availabilty and autoscaling 
+4. Monitoring health
+5. Deploing a code 
+6. Monitoring your Lambda function
+
+- Lambda execte your code when needed scale automatically from a few request per day to thousand per second.
+- You Pay only for the compute time you will consume. No charge when your code is not running.
+
+- Lambda supports language:- 
+Nodejs, Java, Python, Ruby, C#, Powershell, Go, .net only
+
