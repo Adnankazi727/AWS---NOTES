@@ -16,3 +16,10 @@
 - Lambda supports language:- 
 Nodejs, Java, Python, Ruby, C#, Powershell, Go, .net only
 
+* How Lambda works:
+1. First you upload your code to lambda in one or more lambda function.
+2. AWS Lambda will execute the code.
+3. After code involed lambda automatically take care of provisioning and managing the required servers.
+
+Lambda Function: That code that you want lambda to run is known as Lambda funtion.
+
