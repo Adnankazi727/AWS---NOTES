@@ -23,3 +23,10 @@ Nodejs, Java, Python, Ruby, C#, Powershell, Go, .net only
 
 Lambda Function: That code that you want lambda to run is known as Lambda funtion.
 
+### There are three type of Data ...
+1. Sami Structure Data :- Coding language 
+2. Structure Data :- Data in a proper Manur  
+3. Unstructure Data :- It's not organise in proper manur 
+
+* RDS works on Sturture DataBase 
+* DanamoDB works on UnStureture DataBase
